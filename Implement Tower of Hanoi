@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+class demo
+{
+int n;
+public:
+void tower(int,char,char,char);
+void get();
+};
+void demo::get()
+{
+cout<<"\nEnter the number of disk: ";
+cin>>n;
+tower(n,'A','B','C');
+}
+void demo::tower(int n,char beg,char aux,char end)
+{
+if(n!=0)
+{
+tower(n-1,beg,end,aux);
+cout<<"\n Move disk "<<n<<" from "<<beg<<" to "<<end<<"\n";
+tower(n-1,aux,beg,end);
+}
+}
+void main()
+{
+clrscr();
+demo d;
+d.get();
+getch();
+}
