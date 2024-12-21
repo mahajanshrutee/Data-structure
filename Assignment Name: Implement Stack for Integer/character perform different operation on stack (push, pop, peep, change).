@@ -55,7 +55,7 @@ cout<<"\nPop ele is "<<s[top];
 
 top--;
 
-7
+
 }
 }
 void stack::peep()
