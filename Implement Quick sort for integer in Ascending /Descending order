@@ -48,8 +48,6 @@ x[left]=x[right];
 x[right]=temp;
 }
 }while(left<=right);
-
-33
 x[lb]=x[right];
 x[right]=a;
 return(right);
