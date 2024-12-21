@@ -50,9 +50,6 @@ key=a[1];
 j=2;
 if(j+1<q)
 if(a[j+1]>a[j])
-
-37
-
 j++;
 while(j<=q-1 && a[j]>key)
 {
