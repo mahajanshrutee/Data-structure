@@ -51,7 +51,7 @@ if(f==0)
 cout<<"\nUnderflow";
 else
 
-12
+
 {
 cout<<"\nElements in queue are:";
 for(i=f;i<=r;i++)
