@@ -53,7 +53,6 @@ cout<<temp->info;
 while(move!=start)
 {
 
-23
 
 cout<<"->"<<move->info;
 move=move->link;
@@ -113,7 +112,6 @@ clrscr();
 node n;
 int ch;
 
-24
 cout<<"\n 1.Insert 2.Display 3.Delete 4.Exit";
 while(ch!=4)
 {
